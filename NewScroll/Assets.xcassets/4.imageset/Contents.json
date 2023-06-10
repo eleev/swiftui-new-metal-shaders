@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "eleev_bar_chart_finance_comics_book_style_detailed_a36acbee-27b7-4757-b3ec-3e96b182291f.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
