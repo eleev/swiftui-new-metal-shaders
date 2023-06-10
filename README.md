@@ -16,6 +16,14 @@
 # ✍️ About
 🔮 SwiftUI 5 scroll view + animated SF Symbols + **NATIVE SHADERS**!
 
+# 🪄 Features
+- `ScrollView`: `scrollTargetBehavior`, `scrollBounceBehavior` and `scrollTransition`
+- `containerRelativeFrame` and `visualEffect`
+- Animated `SFSymbols`
+- `TimelineView` with `distortionEffect` + `Shader`
+  - The kaleidoscope effect is applied to a static SwiftUI image
+  - The text's wave effect
+
 # 📺 Demo
 Please note that the `.gif` files have low frame rate due to compression and accessibility of demo.
 
