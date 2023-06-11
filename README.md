@@ -3,10 +3,10 @@
 [![Platform](https://img.shields.io/badge/platform-iOS_17-yellow.svg)]()
 [![Platform](https://img.shields.io/badge/platform-iPadOS_17-darkyellow.svg)]()
 [![Language](https://img.shields.io/badge/language-Swift_5.9-orange.svg)]()
-[![Last Commit](https://img.shields.io/github/last-commit/jvirus/swiftui-new-metal-shaders)]()
-[![NLOC](https://img.shields.io/tokei/lines/github/jvirus/swiftui-new-metal-shaders)]()
-[![Contributors](https://img.shields.io/github/contributors/jvirus/swiftui-new-metal-shaders)]()
-[![Repo Size](https://img.shields.io/github/repo-size/jvirus/swiftui-new-metal-shaders)]()
+[![Last Commit](https://img.shields.io/github/last-commit/eleev/swiftui-new-metal-shaders)]()
+[![NLOC](https://img.shields.io/tokei/lines/github/eleev/swiftui-new-metal-shaders)]()
+[![Contributors](https://img.shields.io/github/contributors/eleev/swiftui-new-metal-shaders)]()
+[![Repo Size](https://img.shields.io/github/repo-size/eleev/swiftui-new-metal-shaders)]()
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
 <!-- ![](cover.png) -->
@@ -27,12 +27,12 @@
 # 📺 Demo
 Please note that the `.gif` files have low frame rate due to compression and accessibility of demo.
 
-|  |  |  
-:-------------------------:|:-------------------------:
-![](1.gif) | ![](2.gif)
+|  |  |  |
+:-------------------------:|:-------------------------:|:-------------------------:
+![](1.gif) | ![](2.gif) | ![](3.gif)
 
 # 👨‍💻 Author 
-[Astemir Eleev](https://github.com/jVirus)
+[Astemir Eleev](https://github.com/eleev)
 
 # 🔖 Licence 
 The project is available under [MIT Licence](https://github.com/eleev/swiftui-new-metal-shaders/blob/master/LICENSE)
