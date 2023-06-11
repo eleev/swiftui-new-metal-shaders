@@ -15,6 +15,11 @@
 		A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E8282A3281B9006E8B8B /* ContentView.swift */; };
 		A963E82B2A3281BA006E8B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A963E82A2A3281BA006E8B8B /* Assets.xcassets */; };
 		A963E82E2A3281BA006E8B8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A963E82D2A3281BA006E8B8B /* Preview Assets.xcassets */; };
+		A98235AB2A36746E00AA1A0A /* Wave2D.metal in Sources */ = {isa = PBXBuildFile; fileRef = A98235AA2A36746E00AA1A0A /* Wave2D.metal */; };
+		A98235AE2A36755500AA1A0A /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235AD2A36755500AA1A0A /* BottomCard.swift */; };
+		A98235B02A36756F00AA1A0A /* ShaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235AF2A36756F00AA1A0A /* ShaderTest.swift */; };
+		A98235B22A367BF400AA1A0A /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235B12A367BF400AA1A0A /* MainCard.swift */; };
+		A98235B62A367D1400AA1A0A /* GenericCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235B52A367D1400AA1A0A /* GenericCardView.swift */; };
 		A9C6DB142A32D38800F1602C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB132A32D38800F1602C /* Model.swift */; };
 		A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB152A32D39E00F1602C /* Utils.swift */; };
 		A9C6DB182A32D3E300F1602C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB172A32D3E300F1602C /* CardView.swift */; };
@@ -30,6 +35,11 @@
 		A963E8282A3281B9006E8B8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A963E82A2A3281BA006E8B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A963E82D2A3281BA006E8B8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A98235AA2A36746E00AA1A0A /* Wave2D.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Wave2D.metal; sourceTree = "<group>"; };
+		A98235AD2A36755500AA1A0A /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
+		A98235AF2A36756F00AA1A0A /* ShaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderTest.swift; sourceTree = "<group>"; };
+		A98235B12A367BF400AA1A0A /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
+		A98235B52A367D1400AA1A0A /* GenericCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCardView.swift; sourceTree = "<group>"; };
 		A9C6DB132A32D38800F1602C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A9C6DB152A32D39E00F1602C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A9C6DB172A32D3E300F1602C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -65,15 +75,13 @@
 		A963E8252A3281B9006E8B8B /* NewScroll */ = {
 			isa = PBXGroup;
 			children = (
+				A98235B32A367C2C00AA1A0A /* Containers */,
+				A98235AC2A36754600AA1A0A /* Components */,
+				A98235B42A367C4400AA1A0A /* Shaders */,
 				A963E8262A3281B9006E8B8B /* NewScroll.swift */,
 				A963E8282A3281B9006E8B8B /* ContentView.swift */,
-				A95676A12A340E9700354959 /* VerticalStack.swift */,
-				A95676A32A340EC100354959 /* HorizontalDeck.swift */,
-				A9C6DB172A32D3E300F1602C /* CardView.swift */,
 				A9C6DB132A32D38800F1602C /* Model.swift */,
 				A9C6DB152A32D39E00F1602C /* Utils.swift */,
-				A956769C2A33F9AB00354959 /* Wave.metal */,
-				A956769F2A340B7900354959 /* Kaleidoscope.metal */,
 				A963E82A2A3281BA006E8B8B /* Assets.xcassets */,
 				A963E82C2A3281BA006E8B8B /* Preview Content */,
 			);
@@ -86,6 +94,37 @@
 				A963E82D2A3281BA006E8B8B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A98235AC2A36754600AA1A0A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A9C6DB172A32D3E300F1602C /* CardView.swift */,
+				A98235B52A367D1400AA1A0A /* GenericCardView.swift */,
+				A98235B12A367BF400AA1A0A /* MainCard.swift */,
+				A98235AD2A36755500AA1A0A /* BottomCard.swift */,
+				A98235AF2A36756F00AA1A0A /* ShaderTest.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A98235B32A367C2C00AA1A0A /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				A95676A12A340E9700354959 /* VerticalStack.swift */,
+				A95676A32A340EC100354959 /* HorizontalDeck.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		A98235B42A367C4400AA1A0A /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				A956769C2A33F9AB00354959 /* Wave.metal */,
+				A98235AA2A36746E00AA1A0A /* Wave2D.metal */,
+				A956769F2A340B7900354959 /* Kaleidoscope.metal */,
+			);
+			path = Shaders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,13 +198,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C6DB142A32D38800F1602C /* Model.swift in Sources */,
+				A98235B22A367BF400AA1A0A /* MainCard.swift in Sources */,
 				A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */,
+				A98235B02A36756F00AA1A0A /* ShaderTest.swift in Sources */,
 				A95676A02A340B7900354959 /* Kaleidoscope.metal in Sources */,
 				A963E8272A3281B9006E8B8B /* NewScroll.swift in Sources */,
+				A98235B62A367D1400AA1A0A /* GenericCardView.swift in Sources */,
 				A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */,
 				A956769D2A33F9AB00354959 /* Wave.metal in Sources */,
 				A95676A42A340EC100354959 /* HorizontalDeck.swift in Sources */,
 				A95676A22A340E9700354959 /* VerticalStack.swift in Sources */,
+				A98235AB2A36746E00AA1A0A /* Wave2D.metal in Sources */,
+				A98235AE2A36755500AA1A0A /* BottomCard.swift in Sources */,
 				A9C6DB182A32D3E300F1602C /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
