@@ -25,6 +25,12 @@ struct ContentView: View {
                     HorizontalDeck(model: model)
                         .navigationTitle(horizontalDeckTitle)
                 }
+                
+                lazy var horizontalShowcase = "Horizontal Showcase"
+                NavigationLink(horizontalShowcase) {
+                    OversettableStoreScrollView(model: model)
+                        .navigationTitle(horizontalShowcase)
+                }
             }
         }
     }

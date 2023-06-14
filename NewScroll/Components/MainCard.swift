@@ -12,8 +12,23 @@ struct MainCard: View {
     private let startDate = Date()
     
     private func shader(offset: CGFloat) -> Shader {
-        Shader(function: .init(library: .default, name: "wave"), arguments: [.float(offset)])
+        Shader(
+            function: .init(library: .default, name: "wave"),
+            arguments: [.float(offset)]
+        )
     }
+    
+    private func angledStripes() -> Shader {
+        Shader(
+            function: .init(library: .default, name: "circleMesh"),
+            arguments: [
+                .float(0.4),
+                .float(0.5),
+                .color(Color(.red))
+            ]
+        )
+    }
+    
     private func shader(
         offset: CGFloat,
         angle: CGFloat,
@@ -34,7 +49,8 @@ struct MainCard: View {
         TimelineView(.animation) { context in
             ZStack(alignment: .top) {
                 GeometryReader { proxy in
-                    let size = proxy.frame(in: .local)
+                    let rect = proxy.frame(in: .local)
+                    
                     Image(card.img)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
@@ -43,10 +59,10 @@ struct MainCard: View {
                             shader(
                                 offset: context.date.timeIntervalSince1970 - startDate.timeIntervalSince1970,
                                 angle: context.date.timeIntervalSince1970 - startDate.timeIntervalSince1970,
-                                width: size.width,
-                                height: size.height
+                                width: rect.width,
+                                height: rect.height
                             ),
-                            maxSampleOffset: CGSize(width: 100, height: 100)
+                            maxSampleOffset: rect.size
                         )
                 }
                 
@@ -65,4 +81,8 @@ struct MainCard: View {
             }
         }
     }
+}
+
+#Preview {
+    MainCard(card: .constant(Model().cards[0]))
 }
