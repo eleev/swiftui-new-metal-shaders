@@ -29,8 +29,8 @@ Please note that the `.gif` files have low frame rate due to compression and acc
 
 |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
-![](1.gif) | ![](2.gif) | ![](3.gif)
-![](4.gif) | ![](placeholder.jpeg) | ![](placeholder.jpeg)
+![](Assets/1.gif) | ![](Assets/2.gif) | ![](Assets/3.gif)
+![](Assets/4.gif) | ![](Assets/placeholder.jpeg) | ![](Assets/placeholder.jpeg)
 
 # 👨‍💻 Author 
 [Astemir Eleev](https://github.com/eleev)

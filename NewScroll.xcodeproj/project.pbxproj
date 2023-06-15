@@ -25,6 +25,7 @@
 		A9C6DB142A32D38800F1602C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB132A32D38800F1602C /* Model.swift */; };
 		A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB152A32D39E00F1602C /* Utils.swift */; };
 		A9C6DB182A32D3E300F1602C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB172A32D3E300F1602C /* CardView.swift */; };
+		A9CB46D72A3A32AB001447CA /* StickySlide.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9CB46D62A3A32AB001447CA /* StickySlide.metal */; };
 		A9D361232A3982C400FCC30F /* OversettableStoreScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D361222A3982C400FCC30F /* OversettableStoreScrollView.swift */; };
 		A9D361252A3982D800FCC30F /* OversettableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D361242A3982D800FCC30F /* OversettableScrollView.swift */; };
 		A9D361272A39839200FCC30F /* TimelineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D361262A39839200FCC30F /* TimelineImageView.swift */; };
@@ -50,6 +51,7 @@
 		A9C6DB132A32D38800F1602C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A9C6DB152A32D39E00F1602C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A9C6DB172A32D3E300F1602C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A9CB46D62A3A32AB001447CA /* StickySlide.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = StickySlide.metal; sourceTree = "<group>"; };
 		A9D361222A3982C400FCC30F /* OversettableStoreScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OversettableStoreScrollView.swift; sourceTree = "<group>"; };
 		A9D361242A3982D800FCC30F /* OversettableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OversettableScrollView.swift; sourceTree = "<group>"; };
 		A9D361262A39839200FCC30F /* TimelineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineImageView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				A956769F2A340B7900354959 /* Kaleidoscope.metal */,
 				A9AC61FA2A391DBC007F64D2 /* CircleMesh.metal */,
 				A9AC61F82A391A84007F64D2 /* AngledStripes.metal */,
+				A9CB46D62A3A32AB001447CA /* StickySlide.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				A9AC61FB2A391DBC007F64D2 /* CircleMesh.metal in Sources */,
 				A9D361272A39839200FCC30F /* TimelineImageView.swift in Sources */,
+				A9CB46D72A3A32AB001447CA /* StickySlide.metal in Sources */,
 				A9C6DB142A32D38800F1602C /* Model.swift in Sources */,
 				A98235B22A367BF400AA1A0A /* MainCard.swift in Sources */,
 				A9D361252A3982D800FCC30F /* OversettableScrollView.swift in Sources */,
