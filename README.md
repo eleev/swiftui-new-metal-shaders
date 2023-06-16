@@ -14,7 +14,7 @@
 ### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
 
 # ✍️ About
-🔮 SwiftUI 5 scroll view + animated SF Symbols + **NATIVE SHADERS**!
+🔮 `SwiftUI 5` scroll view layouts & effecet + animated SF Symbols + **Metal Shaders**!
 
 # 📺 Demo
 Please note that the `.gif` files have low frame rate due to compression and accessibility of demo.
