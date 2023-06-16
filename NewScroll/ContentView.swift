@@ -31,6 +31,12 @@ struct ContentView: View {
                     OversettableStoreScrollView(model: model)
                         .navigationTitle(horizontalShowcase)
                 }
+                
+                lazy var oversettableZStack = "Depth Stack"
+                NavigationLink(oversettableZStack) {
+                    OversettableCardStack()
+                        .navigationTitle(oversettableZStack)
+                }
             }
         }
     }
