@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct OversettableCardStack: View {
-    @State var position: CGPoint = .zero
+    @State private var position: CGPoint = .zero
     
     var body: some View {
         OversettableScrollView(
@@ -77,7 +77,7 @@ struct OversettableCardStack: View {
         }
         
         private func scale(_ proxy: GeometryProxy) -> CGFloat {
-            let progress = progress (proxy) * 0.05
+            let progress = progress(proxy) * 0.05
             let scale = 1 - progress
             return min(max(scale, 0.95), 1)
         }
