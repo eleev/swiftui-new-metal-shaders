@@ -14,7 +14,7 @@
 ### If you like the project, please give it a star ⭐ It will show the creator your appreciation and help others to discover the repo.
 
 # ✍️ About
-🔮 `SwiftUI 5` scroll view layouts & effecet + animated SF Symbols + **Metal Shaders**!
+🔮 `SwiftUI 5` scroll view layouts & effecet + animated SF Symbols + **Metal Shaders** collection!
 
 # 📺 Demo
 Please note that the `.gif` files have low frame rate due to compression and accessibility of demo.
@@ -22,7 +22,8 @@ Please note that the `.gif` files have low frame rate due to compression and acc
 |  |  |  |
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](Assets/1.gif) | ![](Assets/2.gif) | ![](Assets/3.gif)
-![](Assets/4.gif) | ![](Assets/5.gif) | ![](Assets/placeholder.jpeg)
+![](Assets/4.gif) | ![](Assets/5.gif) | ![](Assets/6.gif)
+![](Assets/7.gif) | ![](Assets/placeholder.jpeg) | ![](Assets/placeholder.jpeg)
 
 # 🪄 Features
 Check out the list of cool features included:
