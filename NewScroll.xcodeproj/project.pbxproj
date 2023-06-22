@@ -18,7 +18,10 @@
 		A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E8282A3281B9006E8B8B /* ContentView.swift */; };
 		A963E82B2A3281BA006E8B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A963E82A2A3281BA006E8B8B /* Assets.xcassets */; };
 		A963E82E2A3281BA006E8B8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A963E82D2A3281BA006E8B8B /* Preview Assets.xcassets */; };
-		A98235AB2A36746E00AA1A0A /* Wave2D.metal in Sources */ = {isa = PBXBuildFile; fileRef = A98235AA2A36746E00AA1A0A /* Wave2D.metal */; };
+		A965383D2A43CB0B00E8CDD7 /* Noise.metal in Sources */ = {isa = PBXBuildFile; fileRef = A965383C2A43CB0B00E8CDD7 /* Noise.metal */; };
+		A965383F2A43D36900E8CDD7 /* WaveParamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965383E2A43D36900E8CDD7 /* WaveParamView.swift */; };
+		A96538412A43D37900E8CDD7 /* ComplexWaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96538402A43D37900E8CDD7 /* ComplexWaveView.swift */; };
+		A96538432A43D38600E8CDD7 /* PixellateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96538422A43D38600E8CDD7 /* PixellateView.swift */; };
 		A98235AE2A36755500AA1A0A /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235AD2A36755500AA1A0A /* BottomCard.swift */; };
 		A98235B02A36756F00AA1A0A /* ShaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235AF2A36756F00AA1A0A /* ShaderTest.swift */; };
 		A98235B22A367BF400AA1A0A /* MainCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235B12A367BF400AA1A0A /* MainCard.swift */; };
@@ -48,7 +51,10 @@
 		A963E8282A3281B9006E8B8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A963E82A2A3281BA006E8B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A963E82D2A3281BA006E8B8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A98235AA2A36746E00AA1A0A /* Wave2D.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Wave2D.metal; sourceTree = "<group>"; };
+		A965383C2A43CB0B00E8CDD7 /* Noise.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Noise.metal; sourceTree = "<group>"; };
+		A965383E2A43D36900E8CDD7 /* WaveParamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveParamView.swift; sourceTree = "<group>"; };
+		A96538402A43D37900E8CDD7 /* ComplexWaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexWaveView.swift; sourceTree = "<group>"; };
+		A96538422A43D38600E8CDD7 /* PixellateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixellateView.swift; sourceTree = "<group>"; };
 		A98235AD2A36755500AA1A0A /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
 		A98235AF2A36756F00AA1A0A /* ShaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaderTest.swift; sourceTree = "<group>"; };
 		A98235B12A367BF400AA1A0A /* MainCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCard.swift; sourceTree = "<group>"; };
@@ -127,6 +133,9 @@
 				A9D361242A3982D800FCC30F /* OversettableScrollView.swift */,
 				A9D361262A39839200FCC30F /* TimelineImageView.swift */,
 				A90CDDDD2A3BF82800DBA1A2 /* ApollonianGasket.swift */,
+				A965383E2A43D36900E8CDD7 /* WaveParamView.swift */,
+				A96538402A43D37900E8CDD7 /* ComplexWaveView.swift */,
+				A96538422A43D38600E8CDD7 /* PixellateView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -147,11 +156,11 @@
 			children = (
 				A9902FAA2A4169DF001B684A /* Experimental */,
 				A956769C2A33F9AB00354959 /* Wave.metal */,
-				A98235AA2A36746E00AA1A0A /* Wave2D.metal */,
 				A956769F2A340B7900354959 /* Kaleidoscope.metal */,
 				A9AC61FA2A391DBC007F64D2 /* CircleMesh.metal */,
 				A90CDDDB2A3BF7EE00DBA1A2 /* ApollonianGasket.metal */,
 				A9902FA82A4169C0001B684A /* Pixellate.metal */,
+				A965383C2A43CB0B00E8CDD7 /* Noise.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -236,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9902FA92A4169C0001B684A /* Pixellate.metal in Sources */,
+				A965383F2A43D36900E8CDD7 /* WaveParamView.swift in Sources */,
+				A96538412A43D37900E8CDD7 /* ComplexWaveView.swift in Sources */,
 				A9AC61FB2A391DBC007F64D2 /* CircleMesh.metal in Sources */,
 				A9D361272A39839200FCC30F /* TimelineImageView.swift in Sources */,
 				A9CB46D72A3A32AB001447CA /* StickySlide.metal in Sources */,
@@ -245,6 +256,7 @@
 				A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */,
 				A98235B02A36756F00AA1A0A /* ShaderTest.swift in Sources */,
 				A9AC61F92A391A84007F64D2 /* AngledStripes.metal in Sources */,
+				A965383D2A43CB0B00E8CDD7 /* Noise.metal in Sources */,
 				A95676A02A340B7900354959 /* Kaleidoscope.metal in Sources */,
 				A963E8272A3281B9006E8B8B /* NewScroll.swift in Sources */,
 				A90CDDDE2A3BF82800DBA1A2 /* ApollonianGasket.swift in Sources */,
@@ -253,8 +265,8 @@
 				A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */,
 				A956769D2A33F9AB00354959 /* Wave.metal in Sources */,
 				A95676A42A340EC100354959 /* HorizontalDeck.swift in Sources */,
+				A96538432A43D38600E8CDD7 /* PixellateView.swift in Sources */,
 				A95676A22A340E9700354959 /* VerticalStack.swift in Sources */,
-				A98235AB2A36746E00AA1A0A /* Wave2D.metal in Sources */,
 				A9D361232A3982C400FCC30F /* OversettableStoreScrollView.swift in Sources */,
 				A90CDDDC2A3BF7EE00DBA1A2 /* ApollonianGasket.metal in Sources */,
 				A98235AE2A36755500AA1A0A /* BottomCard.swift in Sources */,
