@@ -37,6 +37,18 @@ struct ContentView: View {
                     OversettableCardStack()
                         .navigationTitle(oversettableZStack)
                 }
+                
+                lazy var complexWave = "Param Wave"
+                NavigationLink(complexWave) {
+                    ComplexWaveView()
+                        .navigationTitle(complexWave)
+                }
+                
+                lazy var complexFlagWave = "Flag Wave"
+                NavigationLink(complexFlagWave) {
+                    WaveParamView()
+                        .navigationTitle(complexFlagWave)
+                }
             }
         }
     }
