@@ -10,6 +10,8 @@
 		A90CDDDC2A3BF7EE00DBA1A2 /* ApollonianGasket.metal in Sources */ = {isa = PBXBuildFile; fileRef = A90CDDDB2A3BF7EE00DBA1A2 /* ApollonianGasket.metal */; };
 		A90CDDDE2A3BF82800DBA1A2 /* ApollonianGasket.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90CDDDD2A3BF82800DBA1A2 /* ApollonianGasket.swift */; };
 		A90CDDE02A3BFFA000DBA1A2 /* OversettableCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90CDDDF2A3BFFA000DBA1A2 /* OversettableCardStack.swift */; };
+		A91C31DE2A452A5F00F42A54 /* FractalPattern.metal in Sources */ = {isa = PBXBuildFile; fileRef = A91C31DD2A452A5F00F42A54 /* FractalPattern.metal */; };
+		A91C31E02A45360800F42A54 /* FractalPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C31DF2A45360800F42A54 /* FractalPattern.swift */; };
 		A956769D2A33F9AB00354959 /* Wave.metal in Sources */ = {isa = PBXBuildFile; fileRef = A956769C2A33F9AB00354959 /* Wave.metal */; };
 		A95676A02A340B7900354959 /* Kaleidoscope.metal in Sources */ = {isa = PBXBuildFile; fileRef = A956769F2A340B7900354959 /* Kaleidoscope.metal */; };
 		A95676A22A340E9700354959 /* VerticalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95676A12A340E9700354959 /* VerticalStack.swift */; };
@@ -42,6 +44,8 @@
 		A90CDDDB2A3BF7EE00DBA1A2 /* ApollonianGasket.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = ApollonianGasket.metal; sourceTree = "<group>"; };
 		A90CDDDD2A3BF82800DBA1A2 /* ApollonianGasket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApollonianGasket.swift; sourceTree = "<group>"; };
 		A90CDDDF2A3BFFA000DBA1A2 /* OversettableCardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OversettableCardStack.swift; sourceTree = "<group>"; };
+		A91C31DD2A452A5F00F42A54 /* FractalPattern.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = FractalPattern.metal; sourceTree = "<group>"; };
+		A91C31DF2A45360800F42A54 /* FractalPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalPattern.swift; sourceTree = "<group>"; };
 		A956769C2A33F9AB00354959 /* Wave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Wave.metal; sourceTree = "<group>"; };
 		A956769F2A340B7900354959 /* Kaleidoscope.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Kaleidoscope.metal; sourceTree = "<group>"; };
 		A95676A12A340E9700354959 /* VerticalStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStack.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 				A965383E2A43D36900E8CDD7 /* WaveParamView.swift */,
 				A96538402A43D37900E8CDD7 /* ComplexWaveView.swift */,
 				A96538422A43D38600E8CDD7 /* PixellateView.swift */,
+				A91C31DF2A45360800F42A54 /* FractalPattern.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				A90CDDDB2A3BF7EE00DBA1A2 /* ApollonianGasket.metal */,
 				A9902FA82A4169C0001B684A /* Pixellate.metal */,
 				A965383C2A43CB0B00E8CDD7 /* Noise.metal */,
+				A91C31DD2A452A5F00F42A54 /* FractalPattern.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -244,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91C31DE2A452A5F00F42A54 /* FractalPattern.metal in Sources */,
 				A9902FA92A4169C0001B684A /* Pixellate.metal in Sources */,
 				A965383F2A43D36900E8CDD7 /* WaveParamView.swift in Sources */,
 				A96538412A43D37900E8CDD7 /* ComplexWaveView.swift in Sources */,
@@ -254,6 +261,7 @@
 				A98235B22A367BF400AA1A0A /* MainCard.swift in Sources */,
 				A9D361252A3982D800FCC30F /* OversettableScrollView.swift in Sources */,
 				A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */,
+				A91C31E02A45360800F42A54 /* FractalPattern.swift in Sources */,
 				A98235B02A36756F00AA1A0A /* ShaderTest.swift in Sources */,
 				A9AC61F92A391A84007F64D2 /* AngledStripes.metal in Sources */,
 				A965383D2A43CB0B00E8CDD7 /* Noise.metal in Sources */,

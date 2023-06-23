@@ -49,7 +49,22 @@ struct ContentView: View {
                     WaveParamView()
                         .navigationTitle(complexFlagWave)
                 }
+                
+                lazy var fractalPattern = "Fractal Neon Pattern"
+                NavigationLink(fractalPattern) {
+                    FractalPattern()
+                        .navigationTitle(fractalPattern)
+                }
+                
+                lazy var pixellate = "Pixellate"
+                NavigationLink(pixellate) {
+                    PixellateView()
+                        .navigationTitle(pixellate)
+                }
             }
+            .navigationTitle("Scenes")
+            .navigationBarTitleDisplayMode(.large)
+            
         }
     }
     

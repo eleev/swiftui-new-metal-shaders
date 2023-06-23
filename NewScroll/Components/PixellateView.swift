@@ -12,7 +12,7 @@ struct PixellateView: View {
     
     var body: some View {
         List {
-            Image(.flagOfCalifornia)
+            Image(._4)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .distortionEffect(
