@@ -47,4 +47,3 @@ struct FractalPattern: View {
 #Preview {
     FractalPattern()
 }
-

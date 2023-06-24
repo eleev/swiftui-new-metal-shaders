@@ -61,6 +61,12 @@ struct ContentView: View {
                     PixellateView()
                         .navigationTitle(pixellate)
                 }
+                
+                lazy var mandelbrot = "Mandelbrot"
+                NavigationLink(mandelbrot) {
+                    Mandelbrot()
+                        .navigationTitle(mandelbrot)
+                }
             }
             .navigationTitle("Scenes")
             .navigationBarTitleDisplayMode(.large)
