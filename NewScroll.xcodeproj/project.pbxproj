@@ -12,6 +12,8 @@
 		A90CDDE02A3BFFA000DBA1A2 /* OversettableCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90CDDDF2A3BFFA000DBA1A2 /* OversettableCardStack.swift */; };
 		A91C31DE2A452A5F00F42A54 /* FractalPattern.metal in Sources */ = {isa = PBXBuildFile; fileRef = A91C31DD2A452A5F00F42A54 /* FractalPattern.metal */; };
 		A91C31E02A45360800F42A54 /* FractalPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91C31DF2A45360800F42A54 /* FractalPattern.swift */; };
+		A954A6262A4A90B1003465D3 /* BouncyHeart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A954A6252A4A90B1003465D3 /* BouncyHeart.swift */; };
+		A954A6282A4A90E1003465D3 /* BouncyHeart.metal in Sources */ = {isa = PBXBuildFile; fileRef = A954A6272A4A90E1003465D3 /* BouncyHeart.metal */; };
 		A956769D2A33F9AB00354959 /* Wave.metal in Sources */ = {isa = PBXBuildFile; fileRef = A956769C2A33F9AB00354959 /* Wave.metal */; };
 		A95676A02A340B7900354959 /* Kaleidoscope.metal in Sources */ = {isa = PBXBuildFile; fileRef = A956769F2A340B7900354959 /* Kaleidoscope.metal */; };
 		A95676A22A340E9700354959 /* VerticalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95676A12A340E9700354959 /* VerticalStack.swift */; };
@@ -30,6 +32,11 @@
 		A98235B62A367D1400AA1A0A /* GenericCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98235B52A367D1400AA1A0A /* GenericCardView.swift */; };
 		A9902FA92A4169C0001B684A /* Pixellate.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9902FA82A4169C0001B684A /* Pixellate.metal */; };
 		A99368682A4671130099BC5A /* Mandelbrot.metal in Sources */ = {isa = PBXBuildFile; fileRef = A99368672A4671130099BC5A /* Mandelbrot.metal */; };
+		A99A3F982A4FD5F000075644 /* GlowingWave.metal in Sources */ = {isa = PBXBuildFile; fileRef = A99A3F972A4FD5F000075644 /* GlowingWave.metal */; };
+		A99A3F9A2A50D13000075644 /* GlowingWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99A3F992A50D13000075644 /* GlowingWave.swift */; };
+		A99A3F9C2A50D57400075644 /* GradientWave.metal in Sources */ = {isa = PBXBuildFile; fileRef = A99A3F9B2A50D57400075644 /* GradientWave.metal */; };
+		A99A3F9E2A50D58600075644 /* GradientWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99A3F9D2A50D58600075644 /* GradientWave.swift */; };
+		A99A3FA02A50EC2F00075644 /* CirclePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99A3F9F2A50EC2F00075644 /* CirclePattern.swift */; };
 		A9AC61F92A391A84007F64D2 /* AngledStripes.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9AC61F82A391A84007F64D2 /* AngledStripes.metal */; };
 		A9AC61FB2A391DBC007F64D2 /* CircleMesh.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9AC61FA2A391DBC007F64D2 /* CircleMesh.metal */; };
 		A9BA400F2A468DEC00BBD1D6 /* Mandelbrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BA400E2A468DEC00BBD1D6 /* Mandelbrot.swift */; };
@@ -48,6 +55,8 @@
 		A90CDDDF2A3BFFA000DBA1A2 /* OversettableCardStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OversettableCardStack.swift; sourceTree = "<group>"; };
 		A91C31DD2A452A5F00F42A54 /* FractalPattern.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = FractalPattern.metal; sourceTree = "<group>"; };
 		A91C31DF2A45360800F42A54 /* FractalPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalPattern.swift; sourceTree = "<group>"; };
+		A954A6252A4A90B1003465D3 /* BouncyHeart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncyHeart.swift; sourceTree = "<group>"; };
+		A954A6272A4A90E1003465D3 /* BouncyHeart.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = BouncyHeart.metal; sourceTree = "<group>"; };
 		A956769C2A33F9AB00354959 /* Wave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Wave.metal; sourceTree = "<group>"; };
 		A956769F2A340B7900354959 /* Kaleidoscope.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Kaleidoscope.metal; sourceTree = "<group>"; };
 		A95676A12A340E9700354959 /* VerticalStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStack.swift; sourceTree = "<group>"; };
@@ -67,6 +76,11 @@
 		A98235B52A367D1400AA1A0A /* GenericCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCardView.swift; sourceTree = "<group>"; };
 		A9902FA82A4169C0001B684A /* Pixellate.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Pixellate.metal; sourceTree = "<group>"; };
 		A99368672A4671130099BC5A /* Mandelbrot.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Mandelbrot.metal; sourceTree = "<group>"; };
+		A99A3F972A4FD5F000075644 /* GlowingWave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = GlowingWave.metal; sourceTree = "<group>"; };
+		A99A3F992A50D13000075644 /* GlowingWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlowingWave.swift; sourceTree = "<group>"; };
+		A99A3F9B2A50D57400075644 /* GradientWave.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = GradientWave.metal; sourceTree = "<group>"; };
+		A99A3F9D2A50D58600075644 /* GradientWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientWave.swift; sourceTree = "<group>"; };
+		A99A3F9F2A50EC2F00075644 /* CirclePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePattern.swift; sourceTree = "<group>"; };
 		A9AC61F82A391A84007F64D2 /* AngledStripes.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AngledStripes.metal; sourceTree = "<group>"; };
 		A9AC61FA2A391DBC007F64D2 /* CircleMesh.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CircleMesh.metal; sourceTree = "<group>"; };
 		A9BA400E2A468DEC00BBD1D6 /* Mandelbrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mandelbrot.swift; sourceTree = "<group>"; };
@@ -146,6 +160,10 @@
 				A96538422A43D38600E8CDD7 /* PixellateView.swift */,
 				A91C31DF2A45360800F42A54 /* FractalPattern.swift */,
 				A9BA400E2A468DEC00BBD1D6 /* Mandelbrot.swift */,
+				A954A6252A4A90B1003465D3 /* BouncyHeart.swift */,
+				A99A3F992A50D13000075644 /* GlowingWave.swift */,
+				A99A3F9D2A50D58600075644 /* GradientWave.swift */,
+				A99A3F9F2A50EC2F00075644 /* CirclePattern.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -173,6 +191,9 @@
 				A965383C2A43CB0B00E8CDD7 /* Noise.metal */,
 				A91C31DD2A452A5F00F42A54 /* FractalPattern.metal */,
 				A99368672A4671130099BC5A /* Mandelbrot.metal */,
+				A954A6272A4A90E1003465D3 /* BouncyHeart.metal */,
+				A99A3F972A4FD5F000075644 /* GlowingWave.metal */,
+				A99A3F9B2A50D57400075644 /* GradientWave.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -261,12 +282,16 @@
 				A965383F2A43D36900E8CDD7 /* WaveParamView.swift in Sources */,
 				A96538412A43D37900E8CDD7 /* ComplexWaveView.swift in Sources */,
 				A9AC61FB2A391DBC007F64D2 /* CircleMesh.metal in Sources */,
+				A954A6282A4A90E1003465D3 /* BouncyHeart.metal in Sources */,
 				A9D361272A39839200FCC30F /* TimelineImageView.swift in Sources */,
+				A954A6262A4A90B1003465D3 /* BouncyHeart.swift in Sources */,
 				A9CB46D72A3A32AB001447CA /* StickySlide.metal in Sources */,
 				A9C6DB142A32D38800F1602C /* Model.swift in Sources */,
 				A98235B22A367BF400AA1A0A /* MainCard.swift in Sources */,
 				A9D361252A3982D800FCC30F /* OversettableScrollView.swift in Sources */,
+				A99A3F9C2A50D57400075644 /* GradientWave.metal in Sources */,
 				A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */,
+				A99A3F9A2A50D13000075644 /* GlowingWave.swift in Sources */,
 				A91C31E02A45360800F42A54 /* FractalPattern.swift in Sources */,
 				A98235B02A36756F00AA1A0A /* ShaderTest.swift in Sources */,
 				A9AC61F92A391A84007F64D2 /* AngledStripes.metal in Sources */,
@@ -276,10 +301,13 @@
 				A963E8272A3281B9006E8B8B /* NewScroll.swift in Sources */,
 				A90CDDDE2A3BF82800DBA1A2 /* ApollonianGasket.swift in Sources */,
 				A90CDDE02A3BFFA000DBA1A2 /* OversettableCardStack.swift in Sources */,
+				A99A3FA02A50EC2F00075644 /* CirclePattern.swift in Sources */,
 				A98235B62A367D1400AA1A0A /* GenericCardView.swift in Sources */,
 				A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */,
 				A956769D2A33F9AB00354959 /* Wave.metal in Sources */,
+				A99A3F9E2A50D58600075644 /* GradientWave.swift in Sources */,
 				A95676A42A340EC100354959 /* HorizontalDeck.swift in Sources */,
+				A99A3F982A4FD5F000075644 /* GlowingWave.metal in Sources */,
 				A96538432A43D38600E8CDD7 /* PixellateView.swift in Sources */,
 				A95676A22A340E9700354959 /* VerticalStack.swift in Sources */,
 				A9D361232A3982C400FCC30F /* OversettableStoreScrollView.swift in Sources */,

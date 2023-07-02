@@ -11,38 +11,43 @@ import Observation
 struct ContentView: View {
     @Bindable private var model = Model()
     
+    @ViewBuilder
+    private var scrollables: some View {
+        lazy var veticalStackTitle = "Vertical Stack"
+        NavigationLink(veticalStackTitle) {
+            VerticalStack(model: model)
+                .navigationTitle(veticalStackTitle)
+        }
+        
+        lazy var horizontalDeckTitle = "Horizontal Deck"
+        NavigationLink(horizontalDeckTitle) {
+            HorizontalDeck(model: model)
+                .navigationTitle(horizontalDeckTitle)
+        }
+        
+        lazy var horizontalShowcase = "Horizontal Showcase"
+        NavigationLink(horizontalShowcase) {
+            OversettableStoreScrollView(model: model)
+                .navigationTitle(horizontalShowcase)
+        }
+        
+        lazy var oversettableZStack = "Depth Stack"
+        NavigationLink(oversettableZStack) {
+            OversettableCardStack()
+                .navigationTitle(oversettableZStack)
+        }
+        
+        lazy var complexWave = "Param Wave"
+        NavigationLink(complexWave) {
+            ComplexWaveView()
+                .navigationTitle(complexWave)
+        }
+    }
+    
     var body: some View {
         NavigationStack{
             List{
-                lazy var veticalStackTitle = "Vertical Stack"
-                NavigationLink(veticalStackTitle) {
-                    VerticalStack(model: model)
-                        .navigationTitle(veticalStackTitle)
-                }
-                
-                lazy var horizontalDeckTitle = "Horizontal Deck"
-                NavigationLink(horizontalDeckTitle) {
-                    HorizontalDeck(model: model)
-                        .navigationTitle(horizontalDeckTitle)
-                }
-                
-                lazy var horizontalShowcase = "Horizontal Showcase"
-                NavigationLink(horizontalShowcase) {
-                    OversettableStoreScrollView(model: model)
-                        .navigationTitle(horizontalShowcase)
-                }
-                
-                lazy var oversettableZStack = "Depth Stack"
-                NavigationLink(oversettableZStack) {
-                    OversettableCardStack()
-                        .navigationTitle(oversettableZStack)
-                }
-                
-                lazy var complexWave = "Param Wave"
-                NavigationLink(complexWave) {
-                    ComplexWaveView()
-                        .navigationTitle(complexWave)
-                }
+                scrollables
                 
                 lazy var complexFlagWave = "Flag Wave"
                 NavigationLink(complexFlagWave) {
@@ -66,6 +71,30 @@ struct ContentView: View {
                 NavigationLink(mandelbrot) {
                     Mandelbrot()
                         .navigationTitle(mandelbrot)
+                }
+                
+                lazy var bouncyHeart = "Bouncy Heart"
+                NavigationLink(bouncyHeart) {
+                    BouncyHeart()
+                        .navigationTitle(bouncyHeart)
+                }
+                
+                lazy var glowingWave = "Glowing Wave"
+                NavigationLink(glowingWave) {
+                    GlowingWave()
+                        .navigationTitle(glowingWave)
+                }
+                
+                lazy var gradientWave = "Gradient Wave"
+                NavigationLink(gradientWave) {
+                    GradientWave()
+                        .navigationTitle(gradientWave)
+                }
+                
+                lazy var circlePattern = "Circle Pattern"
+                NavigationLink(circlePattern) {
+                    CirclePattern()
+                        .navigationTitle(circlePattern)
                 }
             }
             .navigationTitle("Scenes")
