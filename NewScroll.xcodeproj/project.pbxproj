@@ -44,6 +44,13 @@
 		A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB152A32D39E00F1602C /* Utils.swift */; };
 		A9C6DB182A32D3E300F1602C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB172A32D3E300F1602C /* CardView.swift */; };
 		A9CB46D72A3A32AB001447CA /* StickySlide.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9CB46D62A3A32AB001447CA /* StickySlide.metal */; };
+		A9D251502A5379BC00ECF2B8 /* Lightspeed.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9D2514F2A5379BC00ECF2B8 /* Lightspeed.metal */; };
+		A9D251522A53807400ECF2B8 /* Lightspeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D251512A53807400ECF2B8 /* Lightspeed.swift */; };
+		A9D251542A5380A500ECF2B8 /* Psychodelics.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9D251532A5380A500ECF2B8 /* Psychodelics.metal */; };
+		A9D251562A53888700ECF2B8 /* Fireworks.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9D251552A53888700ECF2B8 /* Fireworks.metal */; };
+		A9D251582A53898100ECF2B8 /* Psychodelics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D251572A53898100ECF2B8 /* Psychodelics.swift */; };
+		A9D2515A2A53A9EF00ECF2B8 /* CirclePattern.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9D251592A53A9EF00ECF2B8 /* CirclePattern.metal */; };
+		A9D2515C2A53BF5C00ECF2B8 /* Fireworks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D2515B2A53BF5C00ECF2B8 /* Fireworks.swift */; };
 		A9D361232A3982C400FCC30F /* OversettableStoreScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D361222A3982C400FCC30F /* OversettableStoreScrollView.swift */; };
 		A9D361252A3982D800FCC30F /* OversettableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D361242A3982D800FCC30F /* OversettableScrollView.swift */; };
 		A9D361272A39839200FCC30F /* TimelineImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D361262A39839200FCC30F /* TimelineImageView.swift */; };
@@ -88,6 +95,13 @@
 		A9C6DB152A32D39E00F1602C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		A9C6DB172A32D3E300F1602C /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A9CB46D62A3A32AB001447CA /* StickySlide.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = StickySlide.metal; sourceTree = "<group>"; };
+		A9D2514F2A5379BC00ECF2B8 /* Lightspeed.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Lightspeed.metal; sourceTree = "<group>"; };
+		A9D251512A53807400ECF2B8 /* Lightspeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightspeed.swift; sourceTree = "<group>"; };
+		A9D251532A5380A500ECF2B8 /* Psychodelics.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Psychodelics.metal; sourceTree = "<group>"; };
+		A9D251552A53888700ECF2B8 /* Fireworks.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Fireworks.metal; sourceTree = "<group>"; };
+		A9D251572A53898100ECF2B8 /* Psychodelics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Psychodelics.swift; sourceTree = "<group>"; };
+		A9D251592A53A9EF00ECF2B8 /* CirclePattern.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CirclePattern.metal; sourceTree = "<group>"; };
+		A9D2515B2A53BF5C00ECF2B8 /* Fireworks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fireworks.swift; sourceTree = "<group>"; };
 		A9D361222A3982C400FCC30F /* OversettableStoreScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OversettableStoreScrollView.swift; sourceTree = "<group>"; };
 		A9D361242A3982D800FCC30F /* OversettableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OversettableScrollView.swift; sourceTree = "<group>"; };
 		A9D361262A39839200FCC30F /* TimelineImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineImageView.swift; sourceTree = "<group>"; };
@@ -164,6 +178,9 @@
 				A99A3F992A50D13000075644 /* GlowingWave.swift */,
 				A99A3F9D2A50D58600075644 /* GradientWave.swift */,
 				A99A3F9F2A50EC2F00075644 /* CirclePattern.swift */,
+				A9D251512A53807400ECF2B8 /* Lightspeed.swift */,
+				A9D251572A53898100ECF2B8 /* Psychodelics.swift */,
+				A9D2515B2A53BF5C00ECF2B8 /* Fireworks.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -194,6 +211,10 @@
 				A954A6272A4A90E1003465D3 /* BouncyHeart.metal */,
 				A99A3F972A4FD5F000075644 /* GlowingWave.metal */,
 				A99A3F9B2A50D57400075644 /* GradientWave.metal */,
+				A9D251592A53A9EF00ECF2B8 /* CirclePattern.metal */,
+				A9D2514F2A5379BC00ECF2B8 /* Lightspeed.metal */,
+				A9D251532A5380A500ECF2B8 /* Psychodelics.metal */,
+				A9D251552A53888700ECF2B8 /* Fireworks.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -287,8 +308,13 @@
 				A954A6262A4A90B1003465D3 /* BouncyHeart.swift in Sources */,
 				A9CB46D72A3A32AB001447CA /* StickySlide.metal in Sources */,
 				A9C6DB142A32D38800F1602C /* Model.swift in Sources */,
+				A9D251542A5380A500ECF2B8 /* Psychodelics.metal in Sources */,
 				A98235B22A367BF400AA1A0A /* MainCard.swift in Sources */,
+				A9D2515A2A53A9EF00ECF2B8 /* CirclePattern.metal in Sources */,
+				A9D251562A53888700ECF2B8 /* Fireworks.metal in Sources */,
 				A9D361252A3982D800FCC30F /* OversettableScrollView.swift in Sources */,
+				A9D2515C2A53BF5C00ECF2B8 /* Fireworks.swift in Sources */,
+				A9D251582A53898100ECF2B8 /* Psychodelics.swift in Sources */,
 				A99A3F9C2A50D57400075644 /* GradientWave.metal in Sources */,
 				A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */,
 				A99A3F9A2A50D13000075644 /* GlowingWave.swift in Sources */,
@@ -305,6 +331,7 @@
 				A98235B62A367D1400AA1A0A /* GenericCardView.swift in Sources */,
 				A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */,
 				A956769D2A33F9AB00354959 /* Wave.metal in Sources */,
+				A9D251502A5379BC00ECF2B8 /* Lightspeed.metal in Sources */,
 				A99A3F9E2A50D58600075644 /* GradientWave.swift in Sources */,
 				A95676A42A340EC100354959 /* HorizontalDeck.swift in Sources */,
 				A99A3F982A4FD5F000075644 /* GlowingWave.metal in Sources */,
@@ -312,6 +339,7 @@
 				A95676A22A340E9700354959 /* VerticalStack.swift in Sources */,
 				A9D361232A3982C400FCC30F /* OversettableStoreScrollView.swift in Sources */,
 				A90CDDDC2A3BF7EE00DBA1A2 /* ApollonianGasket.metal in Sources */,
+				A9D251522A53807400ECF2B8 /* Lightspeed.swift in Sources */,
 				A98235AE2A36755500AA1A0A /* BottomCard.swift in Sources */,
 				A9C6DB182A32D3E300F1602C /* CardView.swift in Sources */,
 				A99368682A4671130099BC5A /* Mandelbrot.metal in Sources */,
@@ -448,7 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewScroll/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T3K58FE38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,14 +490,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.new-scroll";
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.metal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Debug;
 		};
@@ -481,7 +510,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NewScroll/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = T3K58FE38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -495,14 +524,15 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "eleev.astemir.new-scroll";
+				PRODUCT_BUNDLE_IDENTIFIER = eleev.astemir.metal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 			};
 			name = Release;
 		};

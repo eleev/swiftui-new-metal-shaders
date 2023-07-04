@@ -27,7 +27,8 @@ struct CirclePattern: View {
                         .float(iterations)
                     ))
             }
-                    .clipShape(RoundedRectangle(cornerRadius: 24))
+            .clipShape(RoundedRectangle(cornerRadius: 24))
+            
             Section("Iterations") {
                 Slider(value: $iterations, in: 5...100)
             }

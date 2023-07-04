@@ -36,35 +36,61 @@ struct ContentView: View {
             OversettableCardStack()
                 .navigationTitle(oversettableZStack)
         }
-        
+    }
+    
+    @ViewBuilder
+    private var deform: some View {
         lazy var complexWave = "Param Wave"
         NavigationLink(complexWave) {
             ComplexWaveView()
                 .navigationTitle(complexWave)
+        }
+        
+        lazy var complexFlagWave = "Flag Wave"
+        NavigationLink(complexFlagWave) {
+            WaveParamView()
+                .navigationTitle(complexFlagWave)
+        }
+    
+        lazy var pixellate = "Pixellate"
+        NavigationLink(pixellate) {
+            PixellateView()
+                .navigationTitle(pixellate)
+        }
+    }
+    
+    @ViewBuilder
+    private var glowing: some View {
+        lazy var fractalPattern = "Fractal Neon Pattern"
+        NavigationLink(fractalPattern) {
+            FractalPattern()
+                .navigationTitle(fractalPattern)
+        }
+        
+        lazy var glowingWave = "Glowing Wave"
+        NavigationLink(glowingWave) {
+            GlowingWave()
+                .navigationTitle(glowingWave)
+        }
+        
+        lazy var circlePattern = "Circle Pattern"
+        NavigationLink(circlePattern) {
+            CirclePattern()
+                .navigationTitle(circlePattern)
         }
     }
     
     var body: some View {
         NavigationStack{
             List{
-                scrollables
-                
-                lazy var complexFlagWave = "Flag Wave"
-                NavigationLink(complexFlagWave) {
-                    WaveParamView()
-                        .navigationTitle(complexFlagWave)
+                Section("Scrollables") {
+                    scrollables
                 }
-                
-                lazy var fractalPattern = "Fractal Neon Pattern"
-                NavigationLink(fractalPattern) {
-                    FractalPattern()
-                        .navigationTitle(fractalPattern)
+                Section("Deformations") {
+                    deform
                 }
-                
-                lazy var pixellate = "Pixellate"
-                NavigationLink(pixellate) {
-                    PixellateView()
-                        .navigationTitle(pixellate)
+                Section("Glowing") {
+                    glowing
                 }
                 
                 lazy var mandelbrot = "Mandelbrot"
@@ -79,30 +105,35 @@ struct ContentView: View {
                         .navigationTitle(bouncyHeart)
                 }
                 
-                lazy var glowingWave = "Glowing Wave"
-                NavigationLink(glowingWave) {
-                    GlowingWave()
-                        .navigationTitle(glowingWave)
-                }
-                
                 lazy var gradientWave = "Gradient Wave"
                 NavigationLink(gradientWave) {
                     GradientWave()
                         .navigationTitle(gradientWave)
                 }
                 
-                lazy var circlePattern = "Circle Pattern"
-                NavigationLink(circlePattern) {
-                    CirclePattern()
-                        .navigationTitle(circlePattern)
+                lazy var lightspeed = "Lightspeed"
+                NavigationLink(lightspeed) {
+                    Lightspeed()
+                        .navigationTitle(lightspeed)
                 }
+                
+                lazy var psychodelics = "Psychodelics"
+                NavigationLink(psychodelics) {
+                    Psychodelics()
+                        .navigationTitle(psychodelics)
+                }
+                
+                lazy var fireworks = "Fireworks"
+                NavigationLink(fireworks) {
+                    Fireworks()
+                        .navigationTitle(fireworks)
+                }
+                
             }
             .navigationTitle("Scenes")
             .navigationBarTitleDisplayMode(.large)
-            
         }
     }
-    
 }
 
 #Preview {

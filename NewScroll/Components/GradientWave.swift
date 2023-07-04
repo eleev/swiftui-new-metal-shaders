@@ -30,7 +30,8 @@ struct GradientWave: View {
                         .float(scale)
                     ))
             }
-                    .clipShape(RoundedRectangle(cornerRadius: 24))
+            .clipShape(RoundedRectangle(cornerRadius: 24))
+            
             Section("Thinness") {
                 Slider(value: $thinness, in: 0.5...10)
             }
