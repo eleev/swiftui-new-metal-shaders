@@ -18,7 +18,7 @@
 		A95676A02A340B7900354959 /* Kaleidoscope.metal in Sources */ = {isa = PBXBuildFile; fileRef = A956769F2A340B7900354959 /* Kaleidoscope.metal */; };
 		A95676A22A340E9700354959 /* VerticalStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95676A12A340E9700354959 /* VerticalStack.swift */; };
 		A95676A42A340EC100354959 /* HorizontalDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95676A32A340EC100354959 /* HorizontalDeck.swift */; };
-		A963E8272A3281B9006E8B8B /* NewScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E8262A3281B9006E8B8B /* NewScroll.swift */; };
+		A963E8272A3281B9006E8B8B /* SUIMetal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E8262A3281B9006E8B8B /* SUIMetal.swift */; };
 		A963E8292A3281B9006E8B8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A963E8282A3281B9006E8B8B /* ContentView.swift */; };
 		A963E82B2A3281BA006E8B8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A963E82A2A3281BA006E8B8B /* Assets.xcassets */; };
 		A963E82E2A3281BA006E8B8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A963E82D2A3281BA006E8B8B /* Preview Assets.xcassets */; };
@@ -39,6 +39,8 @@
 		A99A3FA02A50EC2F00075644 /* CirclePattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99A3F9F2A50EC2F00075644 /* CirclePattern.swift */; };
 		A9AC61F92A391A84007F64D2 /* AngledStripes.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9AC61F82A391A84007F64D2 /* AngledStripes.metal */; };
 		A9AC61FB2A391DBC007F64D2 /* CircleMesh.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9AC61FA2A391DBC007F64D2 /* CircleMesh.metal */; };
+		A9AD3CFF2A590F40009BE9AB /* Flame.metal in Sources */ = {isa = PBXBuildFile; fileRef = A9AD3CFE2A590F40009BE9AB /* Flame.metal */; };
+		A9AD3D012A590F4E009BE9AB /* Flame.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD3D002A590F4E009BE9AB /* Flame.swift */; };
 		A9BA400F2A468DEC00BBD1D6 /* Mandelbrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9BA400E2A468DEC00BBD1D6 /* Mandelbrot.swift */; };
 		A9C6DB142A32D38800F1602C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB132A32D38800F1602C /* Model.swift */; };
 		A9C6DB162A32D39E00F1602C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C6DB152A32D39E00F1602C /* Utils.swift */; };
@@ -68,8 +70,8 @@
 		A956769F2A340B7900354959 /* Kaleidoscope.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Kaleidoscope.metal; sourceTree = "<group>"; };
 		A95676A12A340E9700354959 /* VerticalStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStack.swift; sourceTree = "<group>"; };
 		A95676A32A340EC100354959 /* HorizontalDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDeck.swift; sourceTree = "<group>"; };
-		A963E8232A3281B9006E8B8B /* NewScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A963E8262A3281B9006E8B8B /* NewScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewScroll.swift; sourceTree = "<group>"; };
+		A963E8232A3281B9006E8B8B /* SUIMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUIMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A963E8262A3281B9006E8B8B /* SUIMetal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUIMetal.swift; sourceTree = "<group>"; };
 		A963E8282A3281B9006E8B8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A963E82A2A3281BA006E8B8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A963E82D2A3281BA006E8B8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -90,6 +92,8 @@
 		A99A3F9F2A50EC2F00075644 /* CirclePattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclePattern.swift; sourceTree = "<group>"; };
 		A9AC61F82A391A84007F64D2 /* AngledStripes.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = AngledStripes.metal; sourceTree = "<group>"; };
 		A9AC61FA2A391DBC007F64D2 /* CircleMesh.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = CircleMesh.metal; sourceTree = "<group>"; };
+		A9AD3CFE2A590F40009BE9AB /* Flame.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Flame.metal; sourceTree = "<group>"; };
+		A9AD3D002A590F4E009BE9AB /* Flame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flame.swift; sourceTree = "<group>"; };
 		A9BA400E2A468DEC00BBD1D6 /* Mandelbrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mandelbrot.swift; sourceTree = "<group>"; };
 		A9C6DB132A32D38800F1602C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A9C6DB152A32D39E00F1602C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -121,7 +125,7 @@
 		A963E81A2A3281B9006E8B8B = {
 			isa = PBXGroup;
 			children = (
-				A963E8252A3281B9006E8B8B /* NewScroll */,
+				A963E8252A3281B9006E8B8B /* SUIMetal */,
 				A963E8242A3281B9006E8B8B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,25 +133,25 @@
 		A963E8242A3281B9006E8B8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A963E8232A3281B9006E8B8B /* NewScroll.app */,
+				A963E8232A3281B9006E8B8B /* SUIMetal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A963E8252A3281B9006E8B8B /* NewScroll */ = {
+		A963E8252A3281B9006E8B8B /* SUIMetal */ = {
 			isa = PBXGroup;
 			children = (
 				A98235B32A367C2C00AA1A0A /* Containers */,
 				A98235AC2A36754600AA1A0A /* Components */,
 				A98235B42A367C4400AA1A0A /* Shaders */,
-				A963E8262A3281B9006E8B8B /* NewScroll.swift */,
+				A963E8262A3281B9006E8B8B /* SUIMetal.swift */,
 				A963E8282A3281B9006E8B8B /* ContentView.swift */,
 				A9C6DB132A32D38800F1602C /* Model.swift */,
 				A9C6DB152A32D39E00F1602C /* Utils.swift */,
 				A963E82A2A3281BA006E8B8B /* Assets.xcassets */,
 				A963E82C2A3281BA006E8B8B /* Preview Content */,
 			);
-			path = NewScroll;
+			path = SUIMetal;
 			sourceTree = "<group>";
 		};
 		A963E82C2A3281BA006E8B8B /* Preview Content */ = {
@@ -181,6 +185,7 @@
 				A9D251512A53807400ECF2B8 /* Lightspeed.swift */,
 				A9D251572A53898100ECF2B8 /* Psychodelics.swift */,
 				A9D2515B2A53BF5C00ECF2B8 /* Fireworks.swift */,
+				A9AD3D002A590F4E009BE9AB /* Flame.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -215,6 +220,7 @@
 				A9D2514F2A5379BC00ECF2B8 /* Lightspeed.metal */,
 				A9D251532A5380A500ECF2B8 /* Psychodelics.metal */,
 				A9D251552A53888700ECF2B8 /* Fireworks.metal */,
+				A9AD3CFE2A590F40009BE9AB /* Flame.metal */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -231,9 +237,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A963E8222A3281B9006E8B8B /* NewScroll */ = {
+		A963E8222A3281B9006E8B8B /* SUIMetal */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A963E8312A3281BA006E8B8B /* Build configuration list for PBXNativeTarget "NewScroll" */;
+			buildConfigurationList = A963E8312A3281BA006E8B8B /* Build configuration list for PBXNativeTarget "SUIMetal" */;
 			buildPhases = (
 				A963E81F2A3281B9006E8B8B /* Sources */,
 				A963E8202A3281B9006E8B8B /* Frameworks */,
@@ -243,9 +249,9 @@
 			);
 			dependencies = (
 			);
-			name = NewScroll;
+			name = SUIMetal;
 			productName = "orthogonal-scroll-layouts";
-			productReference = A963E8232A3281B9006E8B8B /* NewScroll.app */;
+			productReference = A963E8232A3281B9006E8B8B /* SUIMetal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -263,7 +269,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A963E81E2A3281B9006E8B8B /* Build configuration list for PBXProject "NewScroll" */;
+			buildConfigurationList = A963E81E2A3281B9006E8B8B /* Build configuration list for PBXProject "SUIMetal" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -276,7 +282,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A963E8222A3281B9006E8B8B /* NewScroll */,
+				A963E8222A3281B9006E8B8B /* SUIMetal */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +330,7 @@
 				A965383D2A43CB0B00E8CDD7 /* Noise.metal in Sources */,
 				A95676A02A340B7900354959 /* Kaleidoscope.metal in Sources */,
 				A9BA400F2A468DEC00BBD1D6 /* Mandelbrot.swift in Sources */,
-				A963E8272A3281B9006E8B8B /* NewScroll.swift in Sources */,
+				A963E8272A3281B9006E8B8B /* SUIMetal.swift in Sources */,
 				A90CDDDE2A3BF82800DBA1A2 /* ApollonianGasket.swift in Sources */,
 				A90CDDE02A3BFFA000DBA1A2 /* OversettableCardStack.swift in Sources */,
 				A99A3FA02A50EC2F00075644 /* CirclePattern.swift in Sources */,
@@ -335,8 +341,10 @@
 				A99A3F9E2A50D58600075644 /* GradientWave.swift in Sources */,
 				A95676A42A340EC100354959 /* HorizontalDeck.swift in Sources */,
 				A99A3F982A4FD5F000075644 /* GlowingWave.metal in Sources */,
+				A9AD3D012A590F4E009BE9AB /* Flame.swift in Sources */,
 				A96538432A43D38600E8CDD7 /* PixellateView.swift in Sources */,
 				A95676A22A340E9700354959 /* VerticalStack.swift in Sources */,
+				A9AD3CFF2A590F40009BE9AB /* Flame.metal in Sources */,
 				A9D361232A3982C400FCC30F /* OversettableStoreScrollView.swift in Sources */,
 				A90CDDDC2A3BF7EE00DBA1A2 /* ApollonianGasket.metal in Sources */,
 				A9D251522A53807400ECF2B8 /* Lightspeed.swift in Sources */,
@@ -475,10 +483,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NewScroll/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUIMetal/Preview Content\"";
 				DEVELOPMENT_TEAM = T3K58FE38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SUIMetal;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -509,10 +518,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NewScroll/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SUIMetal/Preview Content\"";
 				DEVELOPMENT_TEAM = T3K58FE38R;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SUIMetal;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -539,7 +549,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A963E81E2A3281B9006E8B8B /* Build configuration list for PBXProject "NewScroll" */ = {
+		A963E81E2A3281B9006E8B8B /* Build configuration list for PBXProject "SUIMetal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A963E82F2A3281BA006E8B8B /* Debug */,
@@ -548,7 +558,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A963E8312A3281BA006E8B8B /* Build configuration list for PBXNativeTarget "NewScroll" */ = {
+		A963E8312A3281BA006E8B8B /* Build configuration list for PBXNativeTarget "SUIMetal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A963E8322A3281BA006E8B8B /* Debug */,

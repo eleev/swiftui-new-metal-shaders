@@ -80,6 +80,21 @@ struct ContentView: View {
         }
     }
     
+    @ViewBuilder
+    private var explosionAndFire: some View {
+        lazy var fireworks = "Fireworks"
+        NavigationLink(fireworks) {
+            Fireworks()
+                .navigationTitle(fireworks)
+        }
+        
+        lazy var flame = "Flame"
+        NavigationLink(flame) {
+            Flame()
+                .navigationTitle(flame)
+        }
+    }
+    
     var body: some View {
         NavigationStack{
             List{
@@ -91,6 +106,9 @@ struct ContentView: View {
                 }
                 Section("Glowing") {
                     glowing
+                }
+                Section("Explosion & Fire") {
+                    explosionAndFire
                 }
                 
                 lazy var mandelbrot = "Mandelbrot"
@@ -121,12 +139,6 @@ struct ContentView: View {
                 NavigationLink(psychodelics) {
                     Psychodelics()
                         .navigationTitle(psychodelics)
-                }
-                
-                lazy var fireworks = "Fireworks"
-                NavigationLink(fireworks) {
-                    Fireworks()
-                        .navigationTitle(fireworks)
                 }
                 
             }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A963E8222A3281B9006E8B8B"
-               BuildableName = "NewScroll.app"
-               BlueprintName = "NewScroll"
-               ReferencedContainer = "container:NewScroll.xcodeproj">
+               BuildableName = "SUIMetal.app"
+               BlueprintName = "SUIMetal"
+               ReferencedContainer = "container:SUIMetal.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A963E8222A3281B9006E8B8B"
-            BuildableName = "NewScroll.app"
-            BlueprintName = "NewScroll"
-            ReferencedContainer = "container:NewScroll.xcodeproj">
+            BuildableName = "SUIMetal.app"
+            BlueprintName = "SUIMetal"
+            ReferencedContainer = "container:SUIMetal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A963E8222A3281B9006E8B8B"
-            BuildableName = "NewScroll.app"
-            BlueprintName = "NewScroll"
-            ReferencedContainer = "container:NewScroll.xcodeproj">
+            BuildableName = "SUIMetal.app"
+            BlueprintName = "SUIMetal"
+            ReferencedContainer = "container:SUIMetal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

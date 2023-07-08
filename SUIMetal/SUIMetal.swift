@@ -1,5 +1,5 @@
 //
-//  NewScroll.swift
+//  SUIMetal.swift
 //  NewScroll
 //
 //  Created by Astemir Eleev on 08/06/2023.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct NewScroll: App {
+struct SUIMetal: App {
     var body: some Scene {
         WindowGroup {
            ContentView()

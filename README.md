@@ -26,7 +26,8 @@ Please note that the `.gif` files have low frame rate due to compression and acc
 ![](Assets/7.gif) | ![](Assets/8.gif) | ![](Assets/9.gif)
 ![](Assets/10.gif) | ![](Assets/11.gif) | ![](Assets/12.gif)
 ![](Assets/13.gif) | ![](Assets/14.gif) | ![](Assets/15.gif)
-![](Assets/16.gif) | ![](Assets/17.gif) | ![](Assets/placeholder.jpeg)
+![](Assets/16.gif) | ![](Assets/17.gif) | ![](Assets/18.gif)
+![](Assets/placeholder.jpeg) | ![](Assets/placeholder.jpeg) | ![](Assets/placeholder.jpeg)
 
 # 🪄 Features
 Check out the list of cool features included:
