@@ -49,7 +49,7 @@ struct VerticalStack: View  {
             .scrollTransition { content, phase in
                 // NOTE: play around with the visual effect modifiers to compose a desired scroll transition effect
                 content
-                    .rotation3D(.degrees(phase.isIdentity ? 0 : 60), axis: (-1, 1, 0))
+                    .rotation3DEffect(.degrees(phase.isIdentity ? 0 : 60), axis: (-1, 1, 0))
                     .rotationEffect(.degrees(phase.isIdentity ? 0 : -30))
                     .offset(x: phase.isIdentity ? 0 : -200)
                     .blur(radius: phase.isIdentity ? 0 : 5)

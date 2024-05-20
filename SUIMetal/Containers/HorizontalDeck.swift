@@ -38,7 +38,7 @@ struct HorizontalDeck: View {
             .visualEffect { effect, proxy in
                 effect
                     .offset(x: -min(0, proxy.frame(in: .scrollView).minX))
-                    .rotation3D(.degrees(-min(0, proxy.frame(in: .scrollView).minX / 50)), axis: (0, 1, 0))
+                    .rotation3DEffect(.degrees(-min(0, proxy.frame(in: .scrollView).minX / 50)), axis: (0, 1, 0))
                     .brightness(min(0, proxy.frame(in: .scrollView).minX / 1_000))
             }
         }
