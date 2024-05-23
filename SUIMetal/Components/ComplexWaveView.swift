@@ -50,7 +50,7 @@ struct ComplexWaveView: View {
     }
     
     @Observable
-    private class ComplexWaveController {
+    fileprivate class ComplexWaveController {
         var speed: CGFloat = 0.3
         var frequency: CGFloat = 12
         var strength: CGFloat = 7
